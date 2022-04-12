@@ -1,0 +1,330 @@
+@font-face {
+    font-family: 'Aller';
+    src: url('Aller_Bd.ttf') format('truetype');
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+#geral {
+    background-color:#363636 ;
+    font-family: 'Aller', sans-serif;
+    color: white;
+    margin-top: 0px;
+    margin-bottom:0px;
+    margin-left: 0px;
+    margin-right: 0px;
+    margin: 0px;
+}
+
+.title2 {
+    font-size: 40px;
+}
+
+.prgf {
+    font-size: 20px;
+    color:gray;
+}
+
+.prgf2 {
+    font-size: 20px;
+    color:white;
+}
+
+.prgf3 {
+    font-size: 17px;
+    color:gray;
+    font-style: italic;
+}
+
+/*MENU*/
+#menu {
+    list-style: none;
+    padding: 0;
+    background-color: rgb(28, 28, 28);
+    position: fixed;    
+    text-align: center;
+    align-items: center;
+    width: 100%;
+    margin: 0%;
+}
+
+#menu li {
+    display: inline-flex;
+    align-items: center;
+    align-self: center;
+}
+
+#menu li a {
+    display: inline;
+    text-align: center;
+    color:white;
+    text-decoration: none;
+    padding:20px;
+    font-family: 'Aller', sans-serif;
+    font-size: larger;
+}
+
+#menu li a:hover {
+    color:#585858;
+    transition: all .4s;
+}
+
+/*TRADUÇÃO*/
+#pt-br {
+    border: none;
+    background: none;
+    position: fixed;
+    width: 30px;
+    height: 30px;
+    top:15px;
+    left:1500px;
+    cursor: pointer;
+}
+
+#en-us {
+    position: fixed;
+    border: none;
+    background: none;
+    width: 30px;
+    height: 30px;
+    top:15px;
+    left:1600px;
+    cursor: pointer;
+}
+
+/*CABEÇALHO*/
+.main_banner {
+    width: 100%;
+    height: 380px;
+    background: url('banner.gif');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    position:absolute;
+    top: 0px
+}
+
+
+#icon {
+    width: 300px;
+    height: 300px;
+    object-fit: scale-down;
+    position: relative;
+    top: -60px;
+    left: 50px;
+}
+
+.nome {
+    color:white;
+    font-size:xx-large;
+    position:relative;
+    top: 135px;
+    text-align: left;
+    margin-left: 355px;
+}
+
+.bar {
+    color:transparent;
+    font-size: 350%;
+    position: relative;
+    top: 300px;
+    background-color:#585858;
+}
+
+.subtitulo {
+    color:gray;
+    position: absolute;
+    font-size: large;
+    top: 405px; 
+    left: 355px;
+}
+/* PERFIL */
+
+#profile {
+    position:absolute;
+    text-align: center;
+    top: 800px;
+    left: 320px;
+    margin-right: 300px;
+    padding-bottom: 100px;
+    padding-top: 100px;
+    border-top: solid gray 1px;;
+
+}
+
+/* FORMAÇÃO */
+
+#formation {
+    width: 1038px;
+    position:absolute;
+    text-align: center;
+    top: 1600px;
+    left: 320px;
+    margin-right: 300px;
+    padding-bottom: 100px;
+    padding-top: 100px;
+    
+}
+
+/* EXPERIÊNCIA */
+
+#vlt{
+    width: 1038px;
+    position:absolute;
+    text-align: center;
+    top: 2400px;
+    left: 320px;
+    margin-right: 300px;
+    padding-bottom: 100px;
+    padding-top: 100px;
+
+}
+
+
+/* SKILL */
+
+#skills{
+    width: 1038px;
+    position:absolute;
+    text-align: center;
+    top: 3200px;
+    left: 320px;
+    margin-right: 300px;
+    padding-bottom: 500px;
+    padding-top: 100px;
+    border-bottom: solid gray 1px;;
+}
+
+#soft {
+    width: 500px;
+    position:absolute;
+    text-align: center;
+    top: 3350px;
+    left: 320px;
+    margin-right: 300px;
+    padding-bottom: 100px;
+    padding-top: 100px;
+}
+
+#hard {
+    width: 500px;
+    position:absolute;
+    text-align:center;
+    top: 3350px;
+    left: 870px;
+    margin-right: 300px;
+    padding-bottom: 100px;
+    padding-top: 100px;
+}
+
+/* CONTATO */
+
+#contato{
+    background-color: rgb(28, 28, 28);
+    width: 100%;
+    position: absolute;
+    text-align: center;
+    top: 4100px;
+    text-decoration: none;
+    padding-bottom: 30px;
+}
+
+.c1 img{
+    position: relative;
+    left: -540px;
+    top:20px;
+    display: inline;
+}
+
+.c1 p{
+    color: gray;
+    position: relative;
+    left: -450px;
+    top: -25px
+}
+
+.c2 img{
+    position: relative;
+    display: inline;
+    left: -540px;
+}
+
+.c2 p{
+    color: gray;
+    position: relative;
+    left: -415px;
+    top: -45px
+}
+
+#c3 {
+    color: gray;
+    position: relative;
+    left: -290px;
+    top: -30px;
+    text-decoration: none;
+}
+
+#c3 img{
+    position: relative;
+    display: inline;
+    text-align: left;
+    left: -10px;
+    top:10px
+}
+
+#c4 {
+    color: gray;
+    position: relative;
+    left: 500px;
+    top: -180px;
+    text-decoration: none;
+}
+
+#c4 img{
+    position: relative;
+    display: inline;
+    text-align: left;
+    left: -10px;
+    top: 10px
+}
+
+#c5 {
+    color: gray;
+    position: relative;
+    left: 370px;
+    top: -110px;
+    text-decoration: none;
+}
+
+#c5 img{
+    position: relative;
+    display: inline;
+    text-align: left;
+    left: -10px;
+    top: 10px
+}
+
+#c6 {
+    color: gray;
+    position: relative;
+    left: 240px;
+    top: -40px;
+    text-decoration: none;
+}
+
+#c6 img{
+    position: relative;
+    display: inline;
+    text-align: left;
+    left: -10px;
+    top: 10px
+}
+
+/*BACK TO THE TOP*/
+#back {
+    position: absolute;
+    top:4030px;
+    left:1575px
+}
